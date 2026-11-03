@@ -129,7 +129,7 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden py-20 px-6 sm:px-8 md:px-12 lg:px-16">
-      {/* 4:3 Aspect Ratio Background with Person on the Left */}
+      {/* Full 16:9 Widescreen Background with Person on the Left */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none select-none">
         <Image
           src="/hero-bg.webp"
@@ -137,7 +137,8 @@ export default function Hero() {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-[0%_bottom] md:object-[0%_bottom] opacity-70 sm:opacity-75 filter contrast-105 brightness-95"
+          style={{ objectPosition: 'left center' }}
+          className="object-cover opacity-75 filter contrast-105 brightness-95"
         />
 
         {/* Soft gradient backing on the right side for clear text readability */}
