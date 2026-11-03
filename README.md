@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Portfolio Website - Amal Shaji Michael
 
-## Getting Started
+A stunning, immersive portfolio website built with Next.js, featuring smooth animations and modern design.
 
-First, run the development server:
+![Portfolio Preview](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?style=for-the-badge&logo=tailwindcss)
 
+## ✨ Features
+
+- 🎨 **Stunning Animations**: Smooth, immersive animations powered by Framer Motion
+- 🎬 **Loading Experience**: Eye-catching loader with progress animation
+- 🌊 **Particle Effects**: Interactive particle background in hero section
+- 📱 **Fully Responsive**: Perfect viewing experience on all devices
+- 🎯 **Smooth Scrolling**: Seamless navigation with scroll-triggered animations
+- 🌈 **Gradient Design**: Beautiful gradient colors and glass morphism effects
+- ⚡ **Performance Optimized**: Built with Next.js 16 for blazing-fast performance
+- 🎭 **Custom Scrollbar**: Themed scrollbar matching the design
+- 💫 **Hover Effects**: Interactive cards with dynamic hover states
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 16
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion & GSAP
+- **Icons**: React Icons
+- **Deployment**: Optimized for Vercel
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/amalshajimichaelk/portfolio-website.git
+cd portfolio-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 🎯 Sections
 
-To learn more about Next.js, take a look at the following resources:
+1. **Hero** - Animated introduction with particle effects
+2. **About** - Personal introduction and statistics
+3. **Skills** - Interactive tech stack showcase
+4. **Projects** - Featured GitHub repositories
+5. **GitHub Stats** - Live GitHub activity and statistics
+6. **Contact** - Get in touch form
+7. **Footer** - Social links and information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To customize the portfolio for your own use:
 
-## Deploy on Vercel
+1. Update personal information in components:
+   - `components/Hero.tsx` - Name, bio, social links
+   - `components/About.tsx` - About me text
+   - `components/Projects.tsx` - Your projects
+   - `components/Contact.tsx` - Contact email
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Modify colors in `app/globals.css`:
+   - Change gradient colors
+   - Adjust theme colors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Update metadata in `app/layout.tsx`:
+   - Title, description, keywords
+
+## 📱 Deployment on Vercel
+
+This portfolio is optimized for deployment on Vercel:
+
+1. Push your code to GitHub
+2. Import the repository in Vercel
+3. Deploy with one click!
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+## 🔧 Scripts
+
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm start        # Start production server
+npm run lint     # Run ESLint
+```
+
+## 🤝 Connect
+
+- **GitHub**: [@amalshajimichaelk](https://github.com/amalshajimichaelk)
+- **LinkedIn**: [Amal Shaji Michael](https://www.linkedin.com/in/amal-shaji-michael-306812315)
+- **Instagram**: [@amalshajimichael](https://www.instagram.com/amalshajimichael)
+- **YouTube**: [@__shah.ji_cinephile](https://youtube.com/@__shah.ji_cinephile)
+- **Email**: [amalshajimichael@gmail.com](mailto:amalshajimichael@gmail.com)
+
+---
+
+Made with ❤️ by Amal Shaji Michael
