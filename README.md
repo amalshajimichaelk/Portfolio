@@ -6,6 +6,8 @@ A stunning, immersive portfolio website built with Next.js, featuring smooth ani
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?style=for-the-badge&logo=tailwindcss)
 
+🌐Live Website : https://amalshajimichael.vercel.app
+
 ## ✨ Features
 
 - 🎨 **Stunning Animations**: Smooth, immersive animations powered by Framer Motion
